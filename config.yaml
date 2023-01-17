@@ -1,0 +1,12 @@
+key: NTSOB0015nV4cxoGODxAlf48L4L51MkeAuDjpLVQS/GrF7vDtZTmaAH/8NfinC8nAAvvVdFJ5VQwrDDhm0L4No7Mve9yOU9k2X627BryIWn01nHPz2tNlhHhnuNBlTAig2AzOcspXWuJmkAFGN1ZymlcBBtE0V1D38zzNSlbBU6k16FGd3l3drAXhN0hn5i74mux2b9QdXJWxmQBJtx+MBOlxSiCh+/j24lxtIOP3DNagGzV1QQqDQ8vPkuJeOaLqyU4AwVT+pxYMcO2FcTOIRdLQuxJgEuO2fi9mew1Hy/qtZifly6Pk61vAKD1GhKSr+TYBBoBEnE6itsGD658L+3CuaxymkwVG3rkiitY3e+4JD/Q+aYVn+xYlOrcz074tQ9H92A6IKm03UoeEPjtsxxCiYmFK6BQULybpanPLH09/6yjfxnLjQSTJm3hm6JlxtWOM3yuXN3hU+G/edjp/Er5LUNiqSKSssZBY9TUzo1e+WZmiFkEBoTWiCZVcekgTy1s/VpFAKD2LSq0R045r/QK53x0dsChKrjcKJm5L0FP8LQs2IGkh7FhrPCl5jCrjr9B6LFCqhatgWt++hG1ukFegxswSMIr3HpjWBdQ7szpz6wDezkl5ILGQt9wTuGB
+tags:
+  Name: NODEJS_INSTANCE
+  appName: NODEJS_APP_ECS
+  projectName: NODEJS_Project_ECS
+metrics:
+  plugins:
+    - name: prometheus
+      enabled: true
+      interval: 100
+      config:
+        ports: "5000"
